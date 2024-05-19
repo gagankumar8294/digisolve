@@ -1,0 +1,26 @@
+/* Big tablets to smaller laptop screens*/
+@media only screen and (max-width:1200px) {
+	html,
+	body {
+		font-size: 14px
+	}
+}
+
+
+/* smaller tablets to larger laptop screens*/
+@media only screen and (max-width:1023px) {
+	.about-box {
+		margin-top: 60px;
+	}
+}
+
+/* Larger phones to smaller tablet screens*/
+@media only screen and (max-width:767px) {
+}
+
+/* smaller to larger Mobile Phones*/
+@media only screen and (max-width:479px) {
+	.work-portfolio li {
+	width: 50%;
+}
+}
